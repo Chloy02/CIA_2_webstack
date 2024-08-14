@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.travel.org/travel"
+           xmlns="http://www.travel.org/travel"
+           elementFormDefault="qualified">
+
+  <xs:element name="travel">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="destination" type="dest_type" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+    <xs:complexType name="dest_type">
+        <xs:sequence>
+        <xs:element name="place" type="xs:string"/>
+        <xs:element name="country" type="xs:string"/>
+        <xs:element name="date" type="xs:date"/>
+        <xs:element name="comment" type="xs:string" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>

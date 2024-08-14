@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<travel xmlns="http://www.travel.org/travel" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.travel.org/travel travel.xsd">
+    <destination>
+        <place>Lakh</place>
+        <country>USA</country>
+        <date>2019-12-24</date>
+    </destination>
+    <destination>
+        <place>Mountains</place>
+        <country>India</country>
+        <date>2021-12-20</date>
+        <comment>It was cold</comment>
+    </destination>
+    <destination>
+        <place>Beach</place>
+        <country>USA</country>
+        <date>2020-12-24</date>
+    </destination>
+</travel>
